@@ -1,0 +1,2 @@
+Example query:
+./pts-line-bisect/pts_lbsearch -p data/Illumina_850k_EPIC/probes/MethylationEPIC_v-1-0_B4_tabs_hg19_final.bed.idsort.txt cg01914153 | awk -vOFS="\t" '{ print $2, $3, $4, $1; }'

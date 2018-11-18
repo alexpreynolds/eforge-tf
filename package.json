@@ -1,0 +1,43 @@
+{
+  "name": "eforge-tf",
+  "version": "1.0.0",
+  "description": "eForge TF viewer client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch --config webpack.config.development.js",
+    "build": "webpack -p --config webpack.config.production.js"
+  },
+  "author": "Alex Reynolds",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-to-clipboard": "^3.0.8",
+    "d3": "^5.0.0",
+    "jquery": "^3.2.1",
+    "object-hash": "^1.1.8",
+    "prop-types": "^15.6.0",
+    "query-string": "^6",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.0",
+    "react-dimensions": "^1.3.1",
+    "react-dom": "^16.2.0",
+    "react-grid-system": "^3.1.2",
+    "react-icons": "^2.2.7",
+    "react-native-timer": "^1.3.1",
+    "react-svg-spinner": "^1.0.1",
+    "react-table": "^6.7.6",
+    "uglify-js-es6": "^2.8.9",
+    "uglifyes-webpack-plugin": "^0.4.3"
+  },
+  "devDependencies": {
+    "autobind": "^1.0.3",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.0",
+    "webpack": "^2.7.0"
+  }
+}
